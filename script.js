@@ -1,6 +1,6 @@
 'use strict'
 
-let money = +prompt("Ваш бюджет на месяц?", ""),
+/*let money = +prompt("Ваш бюджет на месяц?", ""),
     time = prompt("Введите дату в формате YYYY-MM-DD", "");
 
 let appData = {
@@ -64,7 +64,7 @@ do {let a = prompt("Введите обязательную статью рас�
 }
 while (i < 2);
 */
-
+/*
 appData.moneyPerDay = appData.budget / 30;
 alert("Ежедневный бюджет:" + appData.moneyPerDay);
 
@@ -77,3 +77,37 @@ if (appData.moneyPerDay > 100) {
 } else {
     console.log('Произошла непредвиденная ошибка');
 }
+*/
+
+/*
+function showFirstMessage (text) {
+    alert(text);
+}
+
+
+showFirstMessage("Hello!");*/
+function calc(a, b) {
+    return (a + b);
+}
+ 
+console.log(calc(3, 4));
+ 
+console.log(calc(5, 7));
+
+
+function retVar () {
+     let num = 50;
+     return num;
+}
+
+
+let calc =  (a, b) => a + b;
+
+let str = "test";
+console.log(str.length);
+
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+let twelve = "12.2px";
+console.log(parseInt(twelve));
